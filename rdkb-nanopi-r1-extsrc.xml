@@ -6,7 +6,7 @@
     <remote name="linaro" fetch="http://git.linaro.org" review=""/>
     <remote name="yocto" fetch="http://git.yoctoproject.org/git" review=""/>
     <remote name="openembedded" fetch="https://git.openembedded.org" review=""/>
-    <default remote="cmf" revision="hackathon2022/team-broadbanddenovo" sync-j="2"/>
+    <default remote="cmf" revision="master" sync-j="2"/>
     <include name="oe-layers.xml"/>
     <project name="Santhosh360/meta-sunxi" remote="github" path="meta-sunxi" revision="dunfell"/>
     <project name="components/asp/rdk-oe/meta-cmf-bsp-emulator" path="meta-cmf-bsp-emulator"/>
